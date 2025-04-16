@@ -12,7 +12,7 @@ const Section3 = () => {
         <div className="text-[22px] whitespace-nowrap sm:text-[40px] md:text-[68px] font-bold unbounded leading-[100%]">Студенты и учителя</div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] sm:gap-[40px] mt-[30px] sm:mt-10">
-          <div className="flex flex-col gap-[25px]">
+          <div className="flex flex-col gap-[10px] sm:gap-[25px]">
             <Card 
               title={"Для студентов"} 
               desc={"Получите доступ к обширной библиотеке курсов, созданных опытными преподавателями."} 
@@ -24,7 +24,7 @@ const Section3 = () => {
 
           <img src={img2} alt="image_2" className="h-full w-full" />
 
-          <div className="flex flex-col gap-[25px]">
+          <div className="flex flex-col gap-[10px] sm:gap-[25px]">
             <img src={img3} alt="image_3" />
             <Card 
               title={"Для учителей"} 

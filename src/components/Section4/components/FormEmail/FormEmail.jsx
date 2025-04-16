@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaInstagram, FaTelegram } from "react-icons/fa6";
 import { SiVk } from "react-icons/si";
+import { Link } from 'react-router';
 
 const FormEmail = () => {
   return (
@@ -20,7 +21,7 @@ const FormEmail = () => {
         <a href='/'><FaTelegram /></a>
       </div>
 
-      <a href="/" className="text-base mt-5 inline-block">Политика конфедециальности</a>
+      <Link to="/policy" className="text-base mt-5 inline-block">Политика конфедециальности</Link>
     </div>
   )
 }

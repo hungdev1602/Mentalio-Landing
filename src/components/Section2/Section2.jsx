@@ -40,8 +40,8 @@ const Section2 = () => {
         <div className="sm:hidden text-[14px] sm:text-[20px] lg:text-[32px] leading-[100%] mt-[15px] sm:mt-5">Сделайте собственную программу, которая поможет учиться эффективнее.</div>
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-[40px] mt-[30px] sm:mt-10">
-          <div className="flex flex-col gap-[26px]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-[25px] sm:gap-[40px] mt-[30px] sm:mt-10">
+          <div className="flex flex-col gap-[25px] sm:gap-[26px]">
             <Card article={data[0].article} title={data[0].title} link={data[0].link} desc={data[0].desc} height={"h-[200px] sm:h-[280px]"}/>
             <Card article={data[1].article} title={data[1].title} link={data[1].link} desc={data[1].desc} height={"h-[225px] sm:h-[320px]"}/>
           </div>

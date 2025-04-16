@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="container mx-auto pt-[50px]">
+    <header className="container mx-auto pt-[25px] sm:pt-[50px]">
       <div className="flex justify-between items-start">
-        <div className="w-[40px] sm:w-[70px] aspect-square truncate sm:rounded-none rounded-full">
+        <Link to='/' className="w-[40px] sm:w-[70px] aspect-square truncate sm:rounded-none rounded-full block">
           <img src={logo} alt="logo" className="w-full h-full object-cover"/>
-        </div>
+        </Link>
 
         <nav className="flex gap-[5px] sm:gap-6">
           <a 

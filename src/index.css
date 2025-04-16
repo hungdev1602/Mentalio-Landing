@@ -17,3 +17,11 @@
   font-family: "Unbounded", sans-serif;
 }
 
+@media (max-width: 575.98px){
+  .unbounded {
+    font-family: "Inter", sans-serif;
+  }
+  .unbounded.notchange {
+    font-family: "Unbounded", sans-serif;
+  }
+}
