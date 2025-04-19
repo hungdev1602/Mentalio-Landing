@@ -9,7 +9,7 @@ const Section3 = () => {
   return (
     <>
       <div className="container mx-auto mt-[90px] md:mt-[180px]">
-        <div className="text-[22px] whitespace-nowrap sm:text-[40px] md:text-[68px] font-bold unbounded leading-[100%]">Студенты и учителя</div>
+        <div className="text-[28px] whitespace-nowrap sm:text-[40px] md:text-[68px] font-bold unbounded leading-[100%]">Студенты и учителя</div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] sm:gap-[40px] mt-[30px] sm:mt-10">
           <div className="flex flex-col gap-[10px] sm:gap-[25px]">

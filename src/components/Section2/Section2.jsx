@@ -34,9 +34,9 @@ const Section2 = () => {
   return (
     <>
       <div className="container mx-auto mt-[90px] lg:mt-[150px]">
-        <div className={`text-[18px] lg:text-[46px] lg:text-[68px] leading-[100%] unbounded font-bold`}>Занимайтесь по <br />собственной программе</div>
+        <div className={`text-[26px] lg:text-[46px] lg:text-[68px] leading-[100%] unbounded font-bold`}>Занимайтесь по <br />собственной программе</div>
 
-        <div className="hidden sm:block w-[55%] text-[20px] lg:text-[32px] leading-[100%] mt-5">Сделайте собственную программу, которая поможет учиться эффективнее. Лучшие режимы, преподаватели и платформа ждут тебя.</div>
+        <div className="hidden sm:block w-[55%] text-[20px] lg:text-[30px] leading-[100%] mt-[15px] sm:mt-5">Сделайте собственную программу, которая поможет учиться эффективнее. Лучшие режимы, преподаватели и платформа ждут тебя.</div>
         <div className="sm:hidden text-[14px] sm:text-[20px] lg:text-[32px] leading-[100%] mt-[15px] sm:mt-5">Сделайте собственную программу, которая поможет учиться эффективнее.</div>
 
 

@@ -21,7 +21,7 @@ const Section1 = () => {
           <img src={img} alt="mentalio" className='w-full h-full hidden sm:block'/>
           
           <p className="sm:hidden mt-3 text-[18px] md:text-[18px] lg:text-[29px] leading-[100%] font-primary">Откройте для себя увлекательный и эффективный способ овладения новыми словами и языками. Начните свое обучение уже сегодня!</p>
-          <a href="/" className="sm:hidden mt-5 md:mt-[40px] flex items-center justify-center w-[300px] lg:w-[400px] h-[60px] lg:h-[80px] bg-primary text-base md:text-[20px] lg:text-[26px] leading-[100%] text-white rounded-[15px]">Зарегистрироваться</a>
+          <a href="/" className="sm:hidden mt-5 md:mt-[40px] flex items-center justify-center w-full sm:w-[300px] lg:w-[400px] h-[60px] lg:h-[80px] bg-primary text-base md:text-[20px] lg:text-[26px] leading-[100%] text-white rounded-[15px]">Зарегистрироваться</a>
         </div>
       </div>
     </>
